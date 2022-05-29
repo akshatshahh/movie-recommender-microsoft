@@ -11,6 +11,8 @@ You can find all the files on the above github repositories also.
 
 I have managed to make a Content based Recommendation System.
 
+(FOR GITHUB)
+
 Please Download whole repository as a folder ,
 
 Go to app.py on any of the terminals such as Visual Studio Code and type in terminal "streamlit run app.py". 
