@@ -3,6 +3,8 @@ Hello Team
 
 Direct working project link deployed on Heroku - https://movie-recommender-microsoft.herokuapp.com
 
+IF ABOVE GIT REPOSITORY DON`T WOKR YOU CAN DOWNLOAD FOLDER FROM - https://drive.google.com/drive/folders/1M0x6lUsUHiscV-r78xe33ve9ga5ohaCH?usp=sharing
+
 You can find all the files on the above github repositories .
 
 I have managed to make a Content based Recommendation System.
