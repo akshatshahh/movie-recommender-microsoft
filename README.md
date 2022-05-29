@@ -3,7 +3,7 @@ Hello Team
 
 Direct working project link deployed on Heroku - https://movie-recommender-microsoft.herokuapp.com
 
-IF ABOVE GIT REPOSITORY DON`T WOKR YOU CAN DOWNLOAD FOLDER FROM - https://drive.google.com/drive/folders/1M0x6lUsUHiscV-r78xe33ve9ga5ohaCH?usp=sharing
+IF ABOVE GIT REPOSITORY DON`T WORK YOU CAN DOWNLOAD FOLDER FROM - https://drive.google.com/drive/folders/1M0x6lUsUHiscV-r78xe33ve9ga5ohaCH?usp=sharing
 
 Run app.py and important files for that are similarity.pkl and movies.pkl
 
