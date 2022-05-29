@@ -5,7 +5,9 @@ Direct working project link deployed on Heroku - https://movie-recommender-micro
 
 IF ABOVE GIT REPOSITORY DON`T WOKR YOU CAN DOWNLOAD FOLDER FROM - https://drive.google.com/drive/folders/1M0x6lUsUHiscV-r78xe33ve9ga5ohaCH?usp=sharing
 
-You can find all the files on the above github repositories .
+Run app.py and important files for that are similarity.pkl and movies.pkl
+
+You can find all the files on the above github repositories also.
 
 I have managed to make a Content based Recommendation System.
 
