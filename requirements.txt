@@ -16,7 +16,7 @@ MarkupSafe==2.1.5
 mdurl==0.1.2
 numpy==2.0.1
 packaging==24.1
-pandas==2.2.2
+pandas==2.1.4
 pillow==10.4.0
 protobuf==5.27.3
 pyarrow==17.0.0
