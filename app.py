@@ -2,11 +2,12 @@ import pickle
 import streamlit as st
 import requests
 import zipfile
+import lzma
 
 # Open the zip file in read mode
-with zipfile.ZipFile('similarity_pkl.zip', 'r') as zip_ref:
+#with zipfile.ZipFile('similarity_pkl.zip', 'r') as zip_ref:
     # Extract all the contents of zip file in current directory
-    zip_ref.extractall()
+   # zip_ref.extractall()
 
 def fetch_poster(movie_id):
     url = "https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US".format(movie_id)
@@ -31,8 +32,8 @@ def recommend(movie):
 
 
 st.header('Movie Recommender System')
-movies = pickle.load(open('movies.pkl','rb'))
-similarity = pickle.load(open('similarity.pkl','rb'))
+movies = pickle.load(lzma.open('movies.pkl','rb'))
+similarity = pickle.load(lzma.open('similarity.pkl','rb'))
 
 movie_list = movies['title'].values
 selected_movie = st.selectbox(
